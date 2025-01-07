@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import profileImg from '../assets/profileImg.jpg'
 import projectImg from '../assets/pjtImg.png'
 import { addProjectAPI, getAllProjectAPI } from '../sevices/allAPI'
 import { Link } from 'react-router-dom'

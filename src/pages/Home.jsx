@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import profileImg from '../assets/profileImg.jpg'
+import profilepic from '../assets/profile.jpg'
 import Service from '../components/Service'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
@@ -119,7 +119,7 @@ const Home = () => {
                             <button className='btn px-5 py-2 mt-5 rounded-full bg-blue-600 text-white'>Hire Me</button>
                         </div>
                         <div className='border-t-2 border-indigo-500 border-r-4 flex items-center justify-center p-5 m-5'>
-                            <img width={'300px'} className='' src={profileImg} alt="no image" />
+                            <img width={'300px'} className='' src={profilepic} alt="no image" />
                         </div>
                     </div>
                     <AbouteMe />
